@@ -14,6 +14,19 @@
 		548235112BC8E6130023AA21 /* BodyTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548235102BC8E6130023AA21 /* BodyTechTests.swift */; };
 		5482351B2BC8E6130023AA21 /* BodyTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482351A2BC8E6130023AA21 /* BodyTechUITests.swift */; };
 		5482351D2BC8E6130023AA21 /* BodyTechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482351C2BC8E6130023AA21 /* BodyTechUITestsLaunchTests.swift */; };
+		5482352D2BC9844B0023AA21 /* DailyWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482352C2BC9844B0023AA21 /* DailyWorkout.swift */; };
+		5482352F2BC987740023AA21 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482352E2BC987740023AA21 /* History.swift */; };
+		548235322BC98D7F0023AA21 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 548235312BC98D7F0023AA21 /* Realm */; };
+		548235342BC98D7F0023AA21 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 548235332BC98D7F0023AA21 /* RealmSwift */; };
+		548235362BC98DD10023AA21 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548235352BC98DD10023AA21 /* Color+Codable.swift */; };
+		548235382BC992EE0023AA21 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548235372BC992EE0023AA21 /* SpeechRecognizer.swift */; };
+		5482353B2BC999DD0023AA21 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482353A2BC999DD0023AA21 /* WorkoutsView.swift */; };
+		5482353D2BC99C420023AA21 /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482353C2BC99C420023AA21 /* WorkoutCardView.swift */; };
+		5482353F2BC99C580023AA21 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482353E2BC99C580023AA21 /* WorkoutDetailView.swift */; };
+		548235412BC99D940023AA21 /* WorkoutEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548235402BC99D940023AA21 /* WorkoutEditView.swift */; };
+		548235432BC9A5380023AA21 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548235422BC9A5380023AA21 /* ProfileView.swift */; };
+		548235452BC9B2B20023AA21 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548235442BC9B2B20023AA21 /* ViewExtension.swift */; };
+		548235472BC9B7500023AA21 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548235462BC9B7500023AA21 /* HapticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,18 @@
 		548235162BC8E6130023AA21 /* BodyTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5482351A2BC8E6130023AA21 /* BodyTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTechUITests.swift; sourceTree = "<group>"; };
 		5482351C2BC8E6130023AA21 /* BodyTechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5482352C2BC9844B0023AA21 /* DailyWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWorkout.swift; sourceTree = "<group>"; };
+		5482352E2BC987740023AA21 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		548235352BC98DD10023AA21 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		548235372BC992EE0023AA21 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		548235392BC999050023AA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5482353A2BC999DD0023AA21 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		5482353C2BC99C420023AA21 /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
+		5482353E2BC99C580023AA21 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		548235402BC99D940023AA21 /* WorkoutEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEditView.swift; sourceTree = "<group>"; };
+		548235422BC9A5380023AA21 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		548235442BC9B2B20023AA21 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		548235462BC9B7500023AA21 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548235342BC98D7F0023AA21 /* RealmSwift in Frameworks */,
+				548235322BC98D7F0023AA21 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +102,7 @@
 		548234F22BC8E6120023AA21 = {
 			isa = PBXGroup;
 			children = (
+				548234FE2BC8E6120023AA21 /* BodyTechApp.swift */,
 				548234FD2BC8E6120023AA21 /* BodyTech */,
 				5482350F2BC8E6130023AA21 /* BodyTechTests */,
 				548235192BC8E6130023AA21 /* BodyTechUITests */,
@@ -95,7 +123,10 @@
 		548234FD2BC8E6120023AA21 /* BodyTech */ = {
 			isa = PBXGroup;
 			children = (
-				548234FE2BC8E6120023AA21 /* BodyTechApp.swift */,
+				548235392BC999050023AA21 /* Info.plist */,
+				5482352B2BC983FE0023AA21 /* SupportFiles */,
+				5482352A2BC983F60023AA21 /* Views */,
+				548235292BC983EA0023AA21 /* Models */,
 				548235002BC8E6120023AA21 /* ContentView.swift */,
 				548235022BC8E6130023AA21 /* Assets.xcassets */,
 				548235042BC8E6130023AA21 /* BodyTech.entitlements */,
@@ -129,6 +160,38 @@
 			path = BodyTechUITests;
 			sourceTree = "<group>";
 		};
+		548235292BC983EA0023AA21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5482352C2BC9844B0023AA21 /* DailyWorkout.swift */,
+				5482352E2BC987740023AA21 /* History.swift */,
+				548235352BC98DD10023AA21 /* Color+Codable.swift */,
+				548235372BC992EE0023AA21 /* SpeechRecognizer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5482352A2BC983F60023AA21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5482353A2BC999DD0023AA21 /* WorkoutsView.swift */,
+				5482353C2BC99C420023AA21 /* WorkoutCardView.swift */,
+				5482353E2BC99C580023AA21 /* WorkoutDetailView.swift */,
+				548235402BC99D940023AA21 /* WorkoutEditView.swift */,
+				548235422BC9A5380023AA21 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5482352B2BC983FE0023AA21 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				548235442BC9B2B20023AA21 /* ViewExtension.swift */,
+				548235462BC9B7500023AA21 /* HapticsManager.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +208,10 @@
 			dependencies = (
 			);
 			name = BodyTech;
+			packageProductDependencies = (
+				548235312BC98D7F0023AA21 /* Realm */,
+				548235332BC98D7F0023AA21 /* RealmSwift */,
+			);
 			productName = BodyTech;
 			productReference = 548234FB2BC8E6120023AA21 /* BodyTech.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +284,9 @@
 				Base,
 			);
 			mainGroup = 548234F22BC8E6120023AA21;
+			packageReferences = (
+				548235302BC98D7F0023AA21 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 548234FC2BC8E6120023AA21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +329,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5482353D2BC99C420023AA21 /* WorkoutCardView.swift in Sources */,
+				5482353F2BC99C580023AA21 /* WorkoutDetailView.swift in Sources */,
 				548235012BC8E6120023AA21 /* ContentView.swift in Sources */,
+				5482352D2BC9844B0023AA21 /* DailyWorkout.swift in Sources */,
+				548235412BC99D940023AA21 /* WorkoutEditView.swift in Sources */,
+				5482352F2BC987740023AA21 /* History.swift in Sources */,
+				548235452BC9B2B20023AA21 /* ViewExtension.swift in Sources */,
+				548235362BC98DD10023AA21 /* Color+Codable.swift in Sources */,
 				548234FF2BC8E6120023AA21 /* BodyTechApp.swift in Sources */,
+				548235472BC9B7500023AA21 /* HapticsManager.swift in Sources */,
+				5482353B2BC999DD0023AA21 /* WorkoutsView.swift in Sources */,
+				548235432BC9A5380023AA21 /* ProfileView.swift in Sources */,
+				548235382BC992EE0023AA21 /* SpeechRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +505,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyTech/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe workout comments. Audio recordings are discarded after transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your workout in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
@@ -462,8 +548,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyTech/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe workout comments. Audio recordings are discarded after transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your workout in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
@@ -617,6 +708,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		548235302BC98D7F0023AA21 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		548235312BC98D7F0023AA21 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 548235302BC98D7F0023AA21 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		548235332BC98D7F0023AA21 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 548235302BC98D7F0023AA21 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 548234F32BC8E6120023AA21 /* Project object */;
 }
